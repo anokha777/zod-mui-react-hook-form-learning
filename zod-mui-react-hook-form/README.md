@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+# React Hook Form Controllers for MUI Components and Zod Schema
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[My YouTube Channel](https://www.youtube.com/@codegenix)
 
-Currently, two official plugins are available:
+This boilerplate repository provides a collection of React Hook Form controllers for all Material-UI components, along with Zod schema validation for enhanced form handling and data integrity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project almost contains all possible combinations with React Hook Form, Material UI and Zod (discriminated unions with Zod and React Hook Form and MUI, customized controller and so much more).
 
-## Expanding the ESLint configuration
+## Components
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Date Time Picker
 
-- Configure the top-level `parserOptions` property like this:
+### Date Range Picker
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Switch
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Checkbox Group
+
+### Autocomplete
+
+### Radio Group
+
+### TextField
+
+### Toggle Button Group
+
+### Discriminated Unions
+
+### more...
+
+## Features
+
+**Efficient Form Handling:** Leverage React Hook Form's powerful API to manage form state, validation, and submit events seamlessly.
+
+**Material-UI Component Support:** Seamlessly integrate React Hook Form with all Material-UI components, including text fields, selects, buttons, and more.
+
+**Zod Schema Validation:** Employ Zod's robust schema definition language to validate form data against predefined rules, ensuring data accuracy and consistency.
+
+**Custom Validation Logic:** Implement custom validation logic using Zod's validation functions, providing flexible and tailored validation rules.
+
+**Create and Editing Entities on Server:** Know all best practices to handle form data submitting to the server (create and edit capabilities)
+
+**TypeScript Support:** Utilize TypeScript to enhance type safety and code readability throughout the project.
